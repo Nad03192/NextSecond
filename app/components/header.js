@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import MenuIcon from "/public/images/hbr.svg";
+
 
 export default function Header({ activeSection }) {
   const [isOpen, setIsOpen] = useState(false);

@@ -3,7 +3,7 @@
 import Head from "../components/header";
 import ButText from "../components/txt";
 import { useState } from "react";
-import Side from "../components/side"
+
 export default function HomePage() {
   const [aboutContent, setAboutContent] = useState({
     title: "Find Your Dream Job Effortlessly",

@@ -1,7 +1,7 @@
 "use client";
-import { useState } from "react";
+
 import Image from "next/image";
-import Link from "next/link"; 
+
 import Side from "./side";
 
 export default function ButText({ title, description }) {
