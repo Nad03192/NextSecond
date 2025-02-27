@@ -15,25 +15,25 @@ export default function ButText({ title, description }) {
         <h1 className="text-5xl font-bold text-black mb-4">{title}</h1>
         <p className="text-lg text-black mb-8">{description}</p>
 
-        <div className="flex flex-row w-[55vw] max-w-[600px] items-center  mb-10 md:bg-white md:p-4 gap-2 md:gap-3">
+        <div className="flex flex-row w-[55vw] max-w-[600px] items-center  mb-10 md:bg-white md:p-4 gap-2 md:gap-3 border rounded-xl">
   
-  <div className="flex w-auto bg-[#f9f9f9] flex-grow items-center rounded-lg  py-2 shadow-sm border border-gray-300">
+  <div className="flex w-auto bg-[#f9f9f9] flex-grow items-center   py-2 shadow-sm rounded-md  ">
     <Image src="/images/search.svg" alt="Search" width={15} height={20} className="mr-2 ml-2" />
-    <input type="text" placeholder="Job title or keyword" className=" bg-transparent w-40 focus:outline-none text-gray-700" />
+    <input type="text" placeholder="Job title or keyword" className="placeholder:text-black bg-transparent w-40 focus:outline-none text-gray-700" />
   </div>
 
-  <div className="flex w-auto bg-[#f9f9f9] flex-grow items-center rounded-lg  py-2 shadow-sm border border-gray-300">
+  <div className="flex w-auto bg-[#f9f9f9] flex-grow items-center   py-2 shadow-sm   rounded-md ">
     <Image src="/images/location.svg" alt="Location" width={15} height={20} className="mr-2 ml-2" />
-    <select className=" bg-transparent focus:outline-none text-gray-700 cursor-pointer mr-5">
+    <select className=" bg-transparent focus:outline-none text-gray-black cursor-pointer mr-5">
       <option value="">Location</option>
       <option value="1">Option 1</option>
       <option value="2">Option 2</option>
     </select>
-  </div>
+  </div> 
 
-  <button className="bg-[#00cc99] text-white px-4 py-2 rounded-md">
-    Search
-  </button>
+  <button className="bg-[#00cc99] text-white text-sm px-6 py-3 rounded-md">
+  Search
+</button>
 
 </div>
 
