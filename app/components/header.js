@@ -7,13 +7,13 @@ export default function Header({ activeSection }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed w-full top-0 z-50">
+    <header className="fixed w-full mt-9 mb-52 z-50">
       <div className="container mx-auto flex p-4">
         <Link href="/" className="hidden md:flex items-center">
           <Image src="/images/logo.svg" alt="Logo" width={120} height={20} />
         </Link>
 
-        <nav className="hidden items-center md:flex gap-20  ml-24 justify-start">
+        <nav className="hidden items-center md:flex gap-16  ml-24 justify-start">
           <Link 
             href="/home" 
             className={`text-black hover:text-[#00cc99] dark:text-white dark:hover:text-blue-400 font-bold ${activeSection === 'home' ? 'font-bold' : ''}`}
@@ -79,6 +79,11 @@ export default function Header({ activeSection }) {
           </button>
         </div>
       </div>
+
+
+
+
+
 
       <nav className={`md:hidden bg-gray-100 dark:bg-gray-800 transition-all duration-300 ${isOpen ? "block" : "hidden"}`}>
         <div className="flex flex-col items-start space-y-4 py-4 px-4">

@@ -10,7 +10,7 @@ export default function HomePage() {
   };
 
   return (
-    <div className="w-full">
+    <div className="items-center">
       <Head activeSection="home" />
       <ButText
         title={aboutContent.title}
