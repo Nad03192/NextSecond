@@ -15,7 +15,7 @@ export default function ButText({ title, description }) {
         <h1 className="text-5xl font-bold text-black mb-4">{title}</h1>
         <p className="text-lg text-black mb-8">{description}</p>
 
-        <div className="flex flex-row w-full items-center  mb-10 md:bg-white md:p-4 gap-2 md:gap-3">
+        <div className="flex flex-row w-[55vw] max-w-[600px] items-center  mb-10 md:bg-white md:p-4 gap-2 md:gap-3">
   
   <div className="flex w-auto bg-[#f9f9f9] flex-grow items-center rounded-lg  py-2 shadow-sm border border-gray-300">
     <Image src="/images/search.svg" alt="Search" width={15} height={20} className="mr-2 ml-2" />
