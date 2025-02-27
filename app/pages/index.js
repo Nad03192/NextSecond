@@ -11,7 +11,7 @@ export default function HomePage() {
   });
   
   return (
-    <div className="mt-10 pt-20">
+    <div className=" ">
       
        <Head activeSection="home" />
        

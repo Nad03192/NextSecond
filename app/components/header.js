@@ -39,6 +39,24 @@ export default function Header({ activeSection }) {
           >
             Contact
           </Link>
+          <div className="absolute top-4 right-4  md:right-6 flex items-center gap-x-6 md:gap-x-10">
+  <Link href="" className="text-white font-semibold text-lg md:text-xl">
+    Sign In
+  </Link>
+  <Link href="">
+    <div className="bg-white flex items-center h-[40px] px-1 w-[170px] text-black py-3 rounded-md transition">
+      <Image
+        src="/images/dr.svg" 
+        alt="Create Account Icon"
+        width={16} 
+        height={16} 
+        className="ml-3 mr-3 w-4 h-4 md:w-5 md:h-5" 
+      />
+      Create Account
+    </div>
+  </Link>
+</div>
+
         </nav>
       
 
@@ -99,6 +117,7 @@ export default function Header({ activeSection }) {
             Contact
           </Link>
         </div>
+        
       </nav>
       
     </header>
